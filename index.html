@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta ="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./favicon-32x32.png">
+    <title>Document</title>
+</head>
+<body class="app light">
+    <section id="section" >
+        <div class="section_wrapper">
+          <div class="cal_header">
+            <h1 class="calc_h1">calc</h1>
+            <div class="theme">
+              <h1 class="theme_h1">THEME</h1>
+              <div class="theme__number">
+                <ul>
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                </ul>
+                <div class="toggle" id="darkmode">
+                  <div class="toggle_tbn_circ blue" id="light"  onclick="toggleOn()">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+  
+          <div class="display_">
+            <input class="display" placeholder="0" id="inputtext"></input>
+          </div>
+  
+          <div class="calc__btn">
+            <div class="flex-1">
+              <button onclick="calculate(7)">7</button>
+              <button onclick="calculate(8)">8</button>
+              <button onclick="calculate(9)">9</button>
+              <button class="del" onclick="del()">DEL</button>
+            </div>
+  
+            <div class="flex-1">
+              <button onclick="calculate(4)">4</button>
+              <button onclick="calculate(5)">5</button>
+              <button onclick="calculate(6)">6</button>
+              <button onclick="calculate('+')">+</button>
+            </div>
+  
+            <div class="flex-1">
+              <button onclick="calculate(1)">1</button>
+              <button onclick="calculate(2)">2</button>
+              <button onclick="calculate(3)">3</button>
+              <button onclick="calculate('-')">-</button>
+            </div>
+  
+            <div class="flex-1">
+              <button onclick="calculate('.')">.</button>
+              <button onclick="calculate(0)">0</button>
+              <button onclick="calculate('/')">/</button>
+              <button onclick="calculate('*')">X</button>
+            </div>
+  
+            <div class="reset_">
+              <button onclick="Clear()">RESET</button>
+              <button class="equalto" onclick="Result()">=</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <script src="./calc.js"></script>
+</body>
+</html>
