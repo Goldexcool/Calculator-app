@@ -318,3 +318,11 @@ li {
   cursor: pointer;
   margin-left: 20px;
 }
+@media (min-width: 320px) and (max-width:768px) {
+    .display {
+        padding: 50px 40px;
+    }
+    .reset_ button {
+        width: 180px;
+}
+}
