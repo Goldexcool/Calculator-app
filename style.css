@@ -113,6 +113,7 @@ li {
   font-size: 1.2rem;
   line-height: 1.3rem;
   padding-bottom: 5px;
+  color: var(--White);
 }
 .calculator__header__toggle-switch .switcher .switch {
   position: relative;
@@ -238,7 +239,7 @@ li {
 } */
 
 .display {
-  padding: 50px 30px;
+  padding: 50px 60px;
   background-color: var(--Verydarkdesaturatedbluescreenbackground);
   border-radius: 10px;
   margin-bottom: 10px;
@@ -288,7 +289,7 @@ li {
 }
 
 .reset_ button {
-  width: 190px;
+  width: 210px;
   height: 50px;
   border: none;
   border-radius: 10px;
