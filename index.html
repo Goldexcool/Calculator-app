@@ -10,24 +10,31 @@
 <body class="app light">
     <section id="section" >
         <div class="section_wrapper">
-          <div class="cal_header">
-            <h1 class="calc_h1">calc</h1>
-            <div class="theme">
-              <h1 class="theme_h1">THEME</h1>
-              <div class="theme__number">
-                <ul>
-                  <li>1</li>
-                  <li>2</li>
-                  <li>3</li>
-                </ul>
-                <div class="toggle" id="darkmode">
-                  <div class="toggle_tbn_circ blue" id="light"  onclick="toggleOn()">
-                  </div>
+          <div class="calculator__header">
+            <div class="calculator__header__title">calc</div>
+            <div class="calculator__header__toggle-switch">
+              <span class="calculator__header__toggle-switch__title">THEME</span>
+              <div class="calculator__header-toggle-switch__switcher switcher">
+                <div class="switcher__numbers">
+                  <div>1</div>
+                  <div>2</div>
+                  <div>3</div>
+                </div>
+                <div class="switch">
+                  <input type="radio" id="switch1" name="switch" checked />
+                  <label for="switch1"></label>
+                  <input type="radio" id="switch2" name="switch" />
+                  <label for="switch2"></label>
+                  <input type="radio" id="switch3" name="switch" />
+                  <label for="switch3"></label>
+    
+                  <div class="switch__inner"></div>
                 </div>
               </div>
             </div>
           </div>
-  
+          
+    
   
           <div class="display_">
             <input class="display" placeholder="0" id="inputtext"></input>
